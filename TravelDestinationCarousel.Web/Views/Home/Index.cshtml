@@ -1,8 +1,12 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<div class="carousel-header">
+    <h1>Dynamic Carousel Gallery using jQuer</h1>
+</div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="carousel-container">
+    <div id="loading" class="loading">
+        <i class="fas fa-spinner"></i>
+        <p>Loading destinations...</p>
+    </div>
+    <div id="destinationCarousel" class="owl-carousel owl-theme" style="display: none;">
+    </div>
 </div>

@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using TravelDestinationCarousel.Service.Interfaces;
 using TravelDestinationCarousel.Web.Models;
 
 namespace TravelDestinationCarousel.Web.Controllers;
@@ -7,12 +8,13 @@ namespace TravelDestinationCarousel.Web.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IDestinationService _destinationService;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IDestinationService service)
     {
         _logger = logger;
+        _destinationService = service;
     }
-
     public IActionResult Index()
     {
         return View();
@@ -27,5 +29,10 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+    public async Task<IActionResult> GetActiveDestinations()
+    {
+        var destinations = await _destinationService.GetActiveDestinationsAsync();
+        return Ok(destinations);
     }
 }

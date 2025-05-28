@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3KnGhRMn3EO0nTDz+zg1kaX7V1UCPZO2t0SbXUYgbf8=",
+  "Hash": "na2dn1D6/84uCrP31gxJI3kHqFoUWw6o9iTdwIGQO/s=",
   "Source": "TravelDestinationCarousel.Web",
   "BasePath": "_content/TravelDestinationCarousel.Web",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\lib\\jquery\\dist\\check.js",
+      "SourceId": "TravelDestinationCarousel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\",
+      "BasePath": "_content/TravelDestinationCarousel.Web",
+      "RelativePath": "lib/jquery/dist/check.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\check.js"
     },
     {
       "Identity": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
