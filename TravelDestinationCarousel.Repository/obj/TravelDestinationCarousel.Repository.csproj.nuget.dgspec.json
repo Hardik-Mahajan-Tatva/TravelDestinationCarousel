@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {}
+    "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {}
   },
   "projects": {
-    "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {
+    "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
+        "projectUniqueName": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
         "projectName": "TravelDestinationCarousel.Repository",
-        "projectPath": "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
+        "projectPath": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
         "packagesPath": "C:\\Users\\pct62\\.nuget\\packages\\",
-        "outputPath": "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\obj\\",
+        "outputPath": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pct62\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,8 @@
               "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             },
