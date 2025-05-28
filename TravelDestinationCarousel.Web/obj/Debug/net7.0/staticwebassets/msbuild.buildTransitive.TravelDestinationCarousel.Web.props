@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TravelDestinationCarousel.Web.props" />
+</Project>
