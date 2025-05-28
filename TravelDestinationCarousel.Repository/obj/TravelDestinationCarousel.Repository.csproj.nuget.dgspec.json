@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {}
+    "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {}
   },
   "projects": {
-    "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {
+    "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
+        "projectUniqueName": "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
         "projectName": "TravelDestinationCarousel.Repository",
-        "projectPath": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
+        "projectPath": "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\TravelDestinationCarousel.Repository.csproj",
         "packagesPath": "C:\\Users\\pct62\\.nuget\\packages\\",
-        "outputPath": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\obj\\",
+        "outputPath": "d:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pct62\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
