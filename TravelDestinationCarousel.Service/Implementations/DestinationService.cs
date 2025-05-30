@@ -17,7 +17,6 @@ public class DestinationService : IDestinationService
     {
         var result = await _repository.GetActiveDestinationsAsync();
 
-        // Convert to ViewModel
         var viewModelList = result.Select(d => new DestinationViewModel
         {
             Id = d.Id,
@@ -27,7 +26,8 @@ public class DestinationService : IDestinationService
             Location = d.Location,
             LinkUrl = d.LinkUrl,
             IsActive = d.IsActive,
-            DisplayOrder = d.DisplayOrder
+            DisplayOrder = d.DisplayOrder,
+            IsHero = d.Ishero ?? false,
         }).ToList();
 
         return viewModelList;

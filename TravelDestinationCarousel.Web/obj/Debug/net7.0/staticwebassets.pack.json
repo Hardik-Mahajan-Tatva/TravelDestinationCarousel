@@ -13,34 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\1.jpeg",
-      "PackagePath": "staticwebassets\\images\\1.jpeg"
-    },
-    {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\2.jpeg",
-      "PackagePath": "staticwebassets\\images\\2.jpeg"
-    },
-    {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\3.jpeg",
-      "PackagePath": "staticwebassets\\images\\3.jpeg"
-    },
-    {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\4.jpeg",
-      "PackagePath": "staticwebassets\\images\\4.jpeg"
-    },
-    {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\5.jpeg",
-      "PackagePath": "staticwebassets\\images\\5.jpeg"
-    },
-    {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\6.jpeg",
-      "PackagePath": "staticwebassets\\images\\6.jpeg"
-    },
-    {
-      "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\images\\7.jpeg",
-      "PackagePath": "staticwebassets\\images\\7.jpeg"
-    },
-    {
       "Id": "D:\\TravelDestinationCarousel\\TravelDestinationCarousel\\TravelDestinationCarousel.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

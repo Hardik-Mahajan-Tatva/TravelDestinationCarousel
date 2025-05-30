@@ -253,11 +253,11 @@ body {
   cursor: pointer;
 }
 
-.owl-dots .owl-dot.active,
+/* .owl-dots .owl-dot.active,
 .owl-dots .owl-dot:hover {
   background: #ff6b35;
   transform: scale(1.3);
-}
+} */
 
 .owl-dots .owl-dot span {
   display: none;

@@ -16,10 +16,10 @@ public partial class TravelDestinationCarouselContext : DbContext
     }
 
     public virtual DbSet<Destination> Destinations { get; set; }
-#pragma warning disable CS1030
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=localhost;Database=TravelDestinationCarousel;Username=postgres; password=Tatva@123");
+        => optionsBuilder.UseNpgsql("Host=localhost;Database=TravelDestinationCarousel;Username=postgres; password=Tatva@123");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -33,6 +33,9 @@ public partial class TravelDestinationCarouselContext : DbContext
             entity.Property(e => e.Description).HasMaxLength(255);
             entity.Property(e => e.ImageName).HasMaxLength(255);
             entity.Property(e => e.IsActive).HasDefaultValueSql("true");
+            entity.Property(e => e.Ishero)
+                .HasDefaultValueSql("false")
+                .HasColumnName("ishero");
             entity.Property(e => e.LinkUrl).HasMaxLength(255);
             entity.Property(e => e.Location).HasMaxLength(100);
             entity.Property(e => e.Name).HasMaxLength(100);

@@ -20,4 +20,5 @@ public partial class DestinationViewModel
     public int? DisplayOrder { get; set; }
 
     public DateTime? CreatedDate { get; set; }
+    public bool IsHero { get; set; }
 }

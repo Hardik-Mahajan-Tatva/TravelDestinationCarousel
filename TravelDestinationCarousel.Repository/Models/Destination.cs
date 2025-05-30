@@ -22,4 +22,6 @@ public partial class Destination
     public int? DisplayOrder { get; set; }
 
     public DateTime? CreatedDate { get; set; }
+
+    public bool? Ishero { get; set; }
 }
